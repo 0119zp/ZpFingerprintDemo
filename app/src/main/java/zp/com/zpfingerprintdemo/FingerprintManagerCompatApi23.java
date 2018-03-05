@@ -2,11 +2,12 @@ package zp.com.zpfingerprintdemo;
 
 import android.annotation.TargetApi;
 import android.content.Context;
-import android.content.pm.Signature;
 import android.hardware.fingerprint.FingerprintManager;
 import android.os.Handler;
 import android.support.annotation.RequiresApi;
 import android.support.annotation.RestrictTo;
+
+import java.security.Signature;
 
 import javax.crypto.Cipher;
 import javax.crypto.Mac;
